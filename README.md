@@ -1,11 +1,11 @@
 # vue-token-login
 
-> 使用 vue + token 的登录 demo 
+> demo vue + token login demo 
 
-- 首次登录，发送账号密码给后端
-- 后端根据```秘钥 + username + 过期时间```生成 Token，返回给前端
-- 前端拿到之后存储在 localStroage 和 Vuex 中
-- 每次发送请求在 header 里添加 Token 
+- first time login，Send the account password to the backend
+- backend based on```Secret key + username + Expiration```generate Token，return to frontend
+- After the front end gets it, it is stored in localStroage and Vuex middle
+- Every time a request is sent at header add in Token 
 ## Build Setup
 
 ``` bash
